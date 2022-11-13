@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/shared/yes_no.rpy", line 7: expected statement.
+    yesResponse
+               ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Fri Nov  4 23:42:02 2022

@@ -1,0 +1,9 @@
+story:
+player is a servant at a mansion
+goal to become the master of the mansion
+convert servants and current mansion aristocrats to become subserveant
+
+
+players:
+shop keep 
+    sells: poitions that affect characters traits

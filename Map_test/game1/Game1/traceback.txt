@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 12, in script call
+    call choice()
+  File "game/script.rpy", line 12, in script call
+    call choice()
+ScriptError: could not find label 'choice'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 12, in script call
+    call choice()
+  File "C:\Users\jculp\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1705, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 12, in script call
+    call choice()
+  File "C:\Users\jculp\Downloads\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'choice'.
+
+Windows-10-10.0.19043 AMD64
+Ren'Py 8.0.3.22090809
+Game1 1.0
+Fri Nov  4 23:42:26 2022
